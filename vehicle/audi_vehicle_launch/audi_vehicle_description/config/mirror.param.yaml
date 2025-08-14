@@ -1,0 +1,10 @@
+/**:
+  ros__parameters:
+    # Audi Q8 E-tron: Actual measurements were made on the car on 14.08.2025
+    # ---------------
+    min_longitudinal_offset: 1.948 # (2.928 - 0.980) m
+    max_longitudinal_offset: 2.218 # (2.928 - 0.710) m
+    min_lateral_offset: -0.8525 # 1705/2 m
+    max_lateral_offset: 1.0945 # Taken from Audi's manual
+    min_height_offset: 1.053 # 1053 mm
+    max_height_offset: 1.217 # 1217 mm

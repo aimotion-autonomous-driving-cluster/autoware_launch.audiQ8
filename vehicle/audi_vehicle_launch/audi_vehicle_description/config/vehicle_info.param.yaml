@@ -1,0 +1,15 @@
+/**:
+  ros__parameters:
+    # Audi Q8 E-tron: Actual measurements were made on the car on 14.08.2025
+    # ---------------
+    # Wheel: 255/50 R20 H XL
+    wheel_radius: 0.381 # The radius of the wheel, primarily used for dead reckoning.
+    wheel_width: 0.255 # The lateral width of a wheel tire, primarily used for dead reckoning.
+    wheel_base: 2.928 # between front wheel center and rear wheel center
+    wheel_tread: 1.655 # between left wheel center and right wheel center
+    front_overhang: 0.936 # between front wheel center and vehicle front
+    rear_overhang: 1.051 # between rear wheel center and vehicle rear
+    left_overhang: 0.267 # between left wheel center and vehicle left
+    right_overhang: 0.267 # between right wheel center and vehicle right
+    vehicle_height: 1.633 # 2060 mm including the sensors
+    max_steer_angle: 0.7 # [rad]
