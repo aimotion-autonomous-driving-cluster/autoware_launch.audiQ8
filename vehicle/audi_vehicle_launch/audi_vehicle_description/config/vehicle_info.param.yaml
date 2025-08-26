@@ -11,5 +11,6 @@
     rear_overhang: 1.051 # between rear wheel center and vehicle rear
     left_overhang: 0.267 # between left wheel center and vehicle left
     right_overhang: 0.267 # between right wheel center and vehicle right
-    vehicle_height: 1.633 # 2060 mm including the sensors
+    vehicle_height: 1.633 # TODO: Should we include the height with the sensors? i.e. 2060 mm
     max_steer_angle: 0.7 # [rad]
+ 
