@@ -1,0 +1,60 @@
+sensor_kit_base_link:
+# NOTE: "Vehicle geometric center" denoted as "v" is our "sensor_kit_base_link"
+# NOTE: "camera_left" and "camera_right" are fish-eye cameras
+# NOTE: We need vT<sensor> transformation matrices here. All camera transformation matrices were inverted first for this reason
+  rslidar_base_link:
+    x: -0.492073
+    y: -0.004297
+    z: 1.240686
+    roll: -1.569368
+    pitch: -0.002985
+    yaw: -0.004952
+  camera_front_left/camera_link:
+    x: -0.236551
+    y: 0.027298
+    z: 1.009619
+    roll: -1.206198
+    pitch: 0.003069
+    yaw: -1.544559
+  camera_front_right/camera_link:
+    x: -0.428931
+    y: 0.022946
+    z: 1.10197
+    roll: -1.901643
+    pitch: 0.00432
+    yaw: -1.567261
+  camera_back_left/camera_link:
+    x: -0.538861
+    y: 0.263189
+    z: 1.07187
+    roll: 1.260575
+    pitch: 0.010988
+    yaw: -1.570527
+  camera_back_right/camera_link:
+    x: 0.294473
+    y: 0.220581
+    z: 1.006504
+    roll: 1.927368
+    pitch: -0.011921
+    yaw: -1.559942
+  camera_left/camera_link:
+    x: -0.499955
+    y: 0.697334
+    z: 0.900805
+    roll: 0.029683
+    pitch: 0.003104
+    yaw: -1.569627
+  camera_right/camera_link:
+    x: -0.622011
+    y: -0.642894
+    z: 0.867954
+    roll: -3.138078
+    pitch: 0.003046
+    yaw: -1.578157
+  adma_link:
+    x: -0.303908
+    y: 0.026288
+    z: -0.285867
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
